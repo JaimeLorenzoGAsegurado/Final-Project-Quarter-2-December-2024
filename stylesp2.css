@@ -1,0 +1,88 @@
+* {
+    margin-inline: auto;
+    padding: 1%;
+    box-sizing: border-box;
+	text-align: center;
+}
+
+
+body {
+    font-family: Calibri, sans-serif;
+    background-image: url(africa3.jpg) ;
+	text-align: center;
+	text-shadow: 0 0 10px white;
+	
+}
+
+
+header {
+    background-image: url(africa.jpg);
+    color: green;
+    padding: 40px 0;
+    text-align: center;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+	text-align: center;
+}
+
+.container .main-content, .container .sidebar {
+    background: #fff;
+    padding-top: 20px;
+    border-radius: 8px;
+	text-align: center;
+}
+
+.container .main-content {
+    width: 70%;
+	text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	transition-property: transform;
+	transition-duration: .2s;
+	img (hungryafricanchild.jpg) {
+	width: 50px;
+	height: 50px;
+	transform: rotate(-20deg);}
+}
+section:hover{
+	transform: scale(1.025);
+}
+h2 {
+    color: #4CAF50;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.a{
+	transition-property: transform;
+	transition-duration: .2s;
+}
+.a:hover{
+	transform: rotate(20deg);
+	
+}
+html {
+      scroll-behavior: smooth;
+    }
